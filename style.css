@@ -1,0 +1,107 @@
+body {
+  background-image: radial-gradient(
+    circle 400px at 6.8% 8.3%,
+    rgba(255, 244, 169, 1) 0%,
+    rgba(255, 244, 234, 1) 100.2%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 0;
+  position: relative;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 90px;
+  width: 500px;
+  height: 500px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(253, 239, 132, 1) 0%,
+    rgba(247, 198, 169, 1) 54.2%,
+    rgba(21, 186, 196, 1) 100.3%
+  );
+  border: 2px black solid;
+  border-radius: 20%;
+  z-index: 99;
+  position: absolute;
+}
+.play {
+  background-image: linear-gradient(
+    110.6deg,
+    rgba(255, 237, 50, 1) 6.3%,
+    rgba(255, 102, 114, 1) 61.7%,
+    rgba(145, 75, 143, 1) 90.6%
+  );
+  width: 50%;
+  height: 20%;
+  border-radius: 10px;
+  font-family: "Koulen", cursive;
+  font-size: xx-large;
+}
+h1 {
+  font-family: "Koulen", cursive;
+  letter-spacing: 10px;
+}
+
+.filterBlur {
+  filter: blur(1.5rem);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid black;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.power-pellet {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.blinky {
+  background-color: red;
+}
+
+.pinky {
+  background-color: pink;
+}
+
+.inky {
+  background-color: cyan;
+}
+
+.clyde {
+  background-color: orange;
+}
+
+.pac-man {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+}
+
+.scared-ghost {
+  background-color: aquamarine;
+}
